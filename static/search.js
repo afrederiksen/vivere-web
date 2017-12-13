@@ -2,31 +2,101 @@
 
 var searchItems = [
     {
-      name: "Category 1",
+      name: "Rock",
       results: [
         {
-          title: "result Title",
-          description: "Optional Description"
+          title: "Chris Wong",
+          description: "Dallas, TX"
         },
         {
-          title: "result Title",
-          description: "Optional Description"
+          title: "Rob Onato",
+          description: "Boston, MA"
         }
       ]
     },
     {
-      name: "Category 2",
+      name: "Electronic",
       results: [
         {
-          title: "result Title",
-          description: "Optional Description"
+          title: "Jimmy Fu",
+          description: "Berkeley, CA"
+        },
+                  {
+          title: "The Economy",
+          description: "Singapore, Singapore"
+        }
+      ]
+    },
+        {
+      name: "Country",
+      results: [
+        {
+          title: "Kim Canton",
+          description: "New York, NY"
+        }
+      ]
+    },
+        {
+      name: "Rap",
+      results: [
+        {
+          title: "Jeb Kan",
+          description: "London, United Kingdom"
+        },
+                  {
+          title: "Frank Blanto",
+          description: "Bridgeport, CT"
+        }
+      ]
+    },
+    {
+      name: "Spanish",
+      results: [
+        {
+          title: "Carlos Rodriquez",
+          description: "Redmond, WA"
+        }
+      ]
+    },
+        {
+      name: "Punk Rock",
+      results: [
+        {
+          title: "Saturday's for the Boys",
+          description: "Portland, ME"
+        }
+      ]
+    },
+    {
+      name: "Classical",
+      results: [
+        {
+          title: "Thomas Vantu",
+          description: "Rome, Italy"
+        }
+      ]
+    },
+       {
+      name: "African Tribal",
+      results: [
+        {
+          title: "Adam Blanco",
+          description: "Narobi, Kenya"
+        }
+      ]
+    },
+    {
+      name: "Arabic",
+      results: [
+        {
+          title: "Assef and Crew",
+          description: "Redmond, WA"
         }
       ]
     }
 ];
 
 $(function(){
-
   $('#searchInput').search({
     apiSettings: {
         'response': function (e) {
