@@ -6,7 +6,8 @@ var searchItems = [
       results: [
         {
           title: "Chris Wong",
-          description: "Dallas, TX"
+          description: "Dallas, TX",
+		   "url": "./live/wong"
         },
         {
           title: "Rob Onato",
@@ -19,7 +20,8 @@ var searchItems = [
       results: [
         {
           title: "Jimmy Fu",
-          description: "Berkeley, CA"
+          description: "Berkeley, CA",
+		   "url": "./live/fu"
         },
                   {
           title: "The Economy",
