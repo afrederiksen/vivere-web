@@ -1,3 +1,3 @@
 # vivere-web
-##AF Grid View Application
-###AF Asset 2017
+##AF Web Stage for Vivere App Concept
+###2017 Economics Project
